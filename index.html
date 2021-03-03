@@ -281,13 +281,14 @@
 
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required"
+                            <textarea class="form-control" name="message" id="message" rows="5" data-rule="required"
                               data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          <button type="submit" id="btnSend" class="button button-a button-big button-rouded">Send
+                            Message</button>
                         </div>
                       </div>
                     </form>
@@ -356,9 +357,10 @@
   <script src="lib/typed/typed.min.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/sendmessage.js"></script>
 
 </body>
 
