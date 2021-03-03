@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       if (user !== "" && body !== "" && email !== "") {
         if (correoReg.test(email)) {
           Swal.fire({
-            title: "Enviando...",
-            text: "Por favor espera...",
+            title: "Sending...",
+            text: "please wait...",
             allowOutsideClick: false,
             allowEnterKey: false,
             allowEscapeKey: false,
